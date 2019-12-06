@@ -256,10 +256,8 @@ public class MyChordsRemote extends JFrame implements ActionListener {
     // C Major: Confirmed Working
     public void playDMinor9() {
         try {
-            // URL url = new URL("https://chordworld.azurewebsites.net/DMin9.wav"); 
-            // AudioInputStream audioIn = AudioSystem.getAudioInputStream(url); 
-            File soundFile = new File("DMin9.wav");
-            AudioInputStream audioIn = AudioSystem.getAudioInputStream(soundFile);
+            URL url = new URL("https://chordworld.azurewebsites.net/DMin9.wav"); 
+            AudioInputStream audioIn = AudioSystem.getAudioInputStream(url); 
             Clip clip = AudioSystem.getClip(); 
             clip.open(audioIn);
             clip.start(); 
@@ -271,10 +269,8 @@ public class MyChordsRemote extends JFrame implements ActionListener {
     }
     public void playGDom13() {
         try {
-            // URL url = new URL("https://chordworld.azurewebsites.net/GDom13.wav"); 
-            // AudioInputStream audioIn = AudioSystem.getAudioInputStream(url); 
-            URL url = this.getClass().getClassLoader().getResource("GDom13.wav");
-            AudioInputStream audioIn = AudioSystem.getAudioInputStream(url);
+            URL url = new URL("https://chordworld.azurewebsites.net/GDom13.wav"); 
+            AudioInputStream audioIn = AudioSystem.getAudioInputStream(url); 
             Clip clip = AudioSystem.getClip(); 
             clip.open(audioIn); 
             clip.start(); 
@@ -287,10 +283,8 @@ public class MyChordsRemote extends JFrame implements ActionListener {
 
     public void playGSus13() {
         try {
-            // URL url = new URL("https://chordworld.azurewebsites.net/Gsus13.wav"); 
-            // AudioInputStream audioIn = AudioSystem.getAudioInputStream(url); 
-            URL url = this.getClass().getClassLoader().getResource("GSus13.wav");
-            AudioInputStream audioIn = AudioSystem.getAudioInputStream(url);
+            URL url = new URL("https://chordworld.azurewebsites.net/Gsus13.wav"); 
+            AudioInputStream audioIn = AudioSystem.getAudioInputStream(url); 
             Clip clip = AudioSystem.getClip(); 
             clip.open(audioIn); 
             clip.start(); 
@@ -303,9 +297,7 @@ public class MyChordsRemote extends JFrame implements ActionListener {
 
     public void playCMaj9() {
         try {
-            // URL url = new URL("https://chordworld.azurewebsites.net/CMaj9.wav"); 
-            // AudioInputStream audioIn = AudioSystem.getAudioInputStream(url);
-            URL url = this.getClass().getClassLoader().getResource("CMaj9.wav");
+            URL url = new URL("https://chordworld.azurewebsites.net/CMaj9.wav"); 
             AudioInputStream audioIn = AudioSystem.getAudioInputStream(url);
             Clip clip = AudioSystem.getClip(); 
             clip.open(audioIn); 
@@ -1203,9 +1195,10 @@ public class MyChordsRemote extends JFrame implements ActionListener {
         " (___/  (___/  (___/" + " " + " (___/  (___/  (___/" + "\n" +
         "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" + "\n" +
         "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" + "\n" +
-        "this is the more local version, no internet connection required. Have fun!" + "\n");
+        "this is the remote version of my project." + "\n" +
+        "An internet connection is required, it is recommended that it is strong will you run the website in the background.");
         MyChords tst = new MyChords(); 
-        MyChords.infoBox("For instructions on how to use certain chords, check the 'README.md' file. \n Click 'OK' to continue. ", "VIRTUAL OMNICHORD v2.0");
+        MyChords.infoBox("For instructions on how to use certain chords, check the 'README.md' file. \n Click 'OK' to continue. ", "VIRTUAL OMNICHORD REMOTE v2.0");
         tst.setVisible(true); 
     }
 }
