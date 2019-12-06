@@ -59,7 +59,7 @@ public class MyChordsRemote extends JFrame implements ActionListener {
     }
 
 
-    public MyChords(){
+    public MyChordsRemote(){
         setSize(800,800);
         setTitle("Omnichord v2.0"); 
         setLayout(new GridLayout(12,4)); // (12,4)
@@ -190,65 +190,65 @@ public class MyChordsRemote extends JFrame implements ActionListener {
         //getContentPane().add(drumlp1); 
 
         // C Major: Confirmed Working
-        dmbtn.addActionListener(MyChords.this); 
-        g13btn.addActionListener(MyChords.this);
-        gsusbtn.addActionListener(MyChords.this);
-        cmajbtn.addActionListener(MyChords.this);
+        dmbtn.addActionListener(MyChordsRemote.this); 
+        g13btn.addActionListener(MyChordsRemote.this);
+        gsusbtn.addActionListener(MyChordsRemote.this);
+        cmajbtn.addActionListener(MyChordsRemote.this);
         
-        gmbtn.addActionListener(MyChords.this); 
-        c13btn.addActionListener(MyChords.this);
-        csusbtn.addActionListener(MyChords.this);
-        fmajbtn.addActionListener(MyChords.this);
+        gmbtn.addActionListener(MyChordsRemote.this); 
+        c13btn.addActionListener(MyChordsRemote.this);
+        csusbtn.addActionListener(MyChordsRemote.this);
+        fmajbtn.addActionListener(MyChordsRemote.this);
 
-        cmbtn.addActionListener(MyChords.this); 
-        f13btn.addActionListener(MyChords.this);
-        fsusbtn.addActionListener(MyChords.this);
-        bbmajbtn.addActionListener(MyChords.this);
+        cmbtn.addActionListener(MyChordsRemote.this); 
+        f13btn.addActionListener(MyChordsRemote.this);
+        fsusbtn.addActionListener(MyChordsRemote.this);
+        bbmajbtn.addActionListener(MyChordsRemote.this);
 
-        fmbtn.addActionListener(MyChords.this); 
-        bb13btn.addActionListener(MyChords.this);
-        bbsusbtn.addActionListener(MyChords.this);
-        ebmajbtn.addActionListener(MyChords.this);
+        fmbtn.addActionListener(MyChordsRemote.this); 
+        bb13btn.addActionListener(MyChordsRemote.this);
+        bbsusbtn.addActionListener(MyChordsRemote.this);
+        ebmajbtn.addActionListener(MyChordsRemote.this);
 
-        bbmbtn.addActionListener(MyChords.this); 
-        eb13btn.addActionListener(MyChords.this);
-        ebsusbtn.addActionListener(MyChords.this);
-        abmajbtn.addActionListener(MyChords.this);
+        bbmbtn.addActionListener(MyChordsRemote.this); 
+        eb13btn.addActionListener(MyChordsRemote.this);
+        ebsusbtn.addActionListener(MyChordsRemote.this);
+        abmajbtn.addActionListener(MyChordsRemote.this);
 
-        ebmbtn.addActionListener(MyChords.this); 
-        ab13btn.addActionListener(MyChords.this);
-        absusbtn.addActionListener(MyChords.this);
-        dbmajbtn.addActionListener(MyChords.this); 
+        ebmbtn.addActionListener(MyChordsRemote.this); 
+        ab13btn.addActionListener(MyChordsRemote.this);
+        absusbtn.addActionListener(MyChordsRemote.this);
+        dbmajbtn.addActionListener(MyChordsRemote.this); 
 
-        abmbtn.addActionListener(MyChords.this); 
-        db13btn.addActionListener(MyChords.this);
-        dbsusbtn.addActionListener(MyChords.this);
-        gbmajbtn.addActionListener(MyChords.this);
+        abmbtn.addActionListener(MyChordsRemote.this); 
+        db13btn.addActionListener(MyChordsRemote.this);
+        dbsusbtn.addActionListener(MyChordsRemote.this);
+        gbmajbtn.addActionListener(MyChordsRemote.this);
 
-        dbmbtn.addActionListener(MyChords.this); 
-        gb13btn.addActionListener(MyChords.this);
-        gbsusbtn.addActionListener(MyChords.this);
-        bmajbtn.addActionListener(MyChords.this);
+        dbmbtn.addActionListener(MyChordsRemote.this); 
+        gb13btn.addActionListener(MyChordsRemote.this);
+        gbsusbtn.addActionListener(MyChordsRemote.this);
+        bmajbtn.addActionListener(MyChordsRemote.this);
 
-        gbmbtn.addActionListener(MyChords.this); 
-        b13btn.addActionListener(MyChords.this);
-        bsusbtn.addActionListener(MyChords.this);
-        emajbtn.addActionListener(MyChords.this);
+        gbmbtn.addActionListener(MyChordsRemote.this); 
+        b13btn.addActionListener(MyChordsRemote.this);
+        bsusbtn.addActionListener(MyChordsRemote.this);
+        emajbtn.addActionListener(MyChordsRemote.this);
 
-        bmbtn.addActionListener(MyChords.this); 
-        e13btn.addActionListener(MyChords.this);
-        esusbtn.addActionListener(MyChords.this);
-        amajbtn.addActionListener(MyChords.this);
+        bmbtn.addActionListener(MyChordsRemote.this); 
+        e13btn.addActionListener(MyChordsRemote.this);
+        esusbtn.addActionListener(MyChordsRemote.this);
+        amajbtn.addActionListener(MyChordsRemote.this);
 
-        embtn.addActionListener(MyChords.this); 
-        a13btn.addActionListener(MyChords.this);
-        asusbtn.addActionListener(MyChords.this);
-        dmajbtn.addActionListener(MyChords.this);
+        embtn.addActionListener(MyChordsRemote.this); 
+        a13btn.addActionListener(MyChordsRemote.this);
+        asusbtn.addActionListener(MyChordsRemote.this);
+        dmajbtn.addActionListener(MyChordsRemote.this);
 
-        ambtn.addActionListener(MyChords.this); 
-        d13btn.addActionListener(MyChords.this);
-        dsusbtn.addActionListener(MyChords.this);
-        gmajbtn.addActionListener(MyChords.this);
+        ambtn.addActionListener(MyChordsRemote.this); 
+        d13btn.addActionListener(MyChordsRemote.this);
+        dsusbtn.addActionListener(MyChordsRemote.this);
+        gmajbtn.addActionListener(MyChordsRemote.this);
 
         setDefaultCloseOperation(EXIT_ON_CLOSE); 
     }
@@ -1197,8 +1197,8 @@ public class MyChordsRemote extends JFrame implements ActionListener {
         "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" + "\n" +
         "this is the remote version of my project." + "\n" +
         "An internet connection is required, it is recommended that it is strong will you run the website in the background.");
-        MyChords tst = new MyChords(); 
-        MyChords.infoBox("For instructions on how to use certain chords, check the 'README.md' file. \n Click 'OK' to continue. ", "VIRTUAL OMNICHORD REMOTE v2.0");
+        MyChordsRemote tst = new MyChordsRemote(); 
+        MyChordsRemote.infoBox("For instructions on how to use certain chords, check the 'README.md' file. \n Click 'OK' to continue. ", "VIRTUAL OMNICHORD REMOTE v2.0");
         tst.setVisible(true); 
     }
 }
